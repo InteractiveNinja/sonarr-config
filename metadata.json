@@ -1,7 +1,7 @@
 {
   "json_paths": {
     "sonarr": {
-      "custom_formats": ["docs/json/sonarr/cf"]
+      "custom_formats": ["sonarr/cf"]
     }
   }
 }
