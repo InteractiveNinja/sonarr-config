@@ -8,7 +8,7 @@ quality_profiles:
     upgrade:
       allowed: true
       until_quality: Bluray-1080p
-      until_score: 10000
+      until_score: 1000
     min_format_score: 100
     score_set: anime-sonarr
     quality_sort: top
