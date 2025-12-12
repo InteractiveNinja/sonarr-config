@@ -18,5 +18,5 @@ resource_providers:
 
 ```yaml
 include:
-  - template: ninja-sonarr-v4-720-anime
+  - template: ninja-sonarr-v4-1080p-anime
 ```

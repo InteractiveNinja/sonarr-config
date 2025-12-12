@@ -1,8 +1,8 @@
 {
   "sonarr": [
     {
-      "id": "ninja-sonarr-v4-720-anime",
-      "template": "sonarr/includes/sonarr-v4-720-anime.yaml",
+      "id": "ninja-sonarr-v4-1080p-anime",
+      "template": "sonarr/includes/sonarr-v4-1080p-anime.yaml",
       "hidden": false
     }
   ]
