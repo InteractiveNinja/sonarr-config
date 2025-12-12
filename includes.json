@@ -1,0 +1,5 @@
+{
+  "id": "ninja-sonarr-v4-720-anime",
+  "template": "sonarr/includes/sonarr-v4-720-anime.yaml",
+  "hidden": false
+}
