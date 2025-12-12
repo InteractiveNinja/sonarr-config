@@ -1,0 +1,7 @@
+{
+  "json_paths": {
+    "sonarr": {
+      "custom_formats": ["docs/json/sonarr/cf"]
+    }
+  }
+}

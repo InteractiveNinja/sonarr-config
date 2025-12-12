@@ -32,8 +32,7 @@ quality_profiles:
     upgrade:
       allowed: true
       until_quality: Bluray-720p
-      until_score: 1100
-    min_format_score: 100
+    min_format_score: 10000
     score_set: anime-sonarr
     quality_sort: top
     qualities:
@@ -120,9 +119,31 @@ custom_formats:
         score: 1100
 
   - trash_ids:
+      - multi-subs # Multi-subs
+    assign_scores_to:
+      - name: Anime Sub - 720p
+        score: 200
+
+  - trash_ids:
       - 9c14d194486c4014d422adc64092d794 # Dubs Only
     assign_scores_to:
       - name: Anime Dub - 720p
         score: 10000
       - name: Anime Sub - 720p
         score: -10000
+
+  - trash_ids:
+      - 85c61753df5da1fb2aab6f2a47426b09 # BR-DISK
+      - 9c11cd3f07101cdba90a2d81cf0e56b4 # LQ
+      - e2315f990da2e2cbfc9fa5b7a6fcfe48 # LQ (Release Title)
+      - a6a6c33d057406aaad978a6902823c35 # German LQ
+      - d80c9f7cd2aad50271f1bd4e53125778 # German LQ (release title)
+      - 237eda4ef550a97da2c9d87b437e500b # German Microsized
+      - fbcb31d8dabd2a319072b84fc0b7249c # Extras
+      - 15a05bc7c1a36e2b57fd628f8977e2fc # AV1
+      - 23297a736ca77c0fc8e70f8edd7ee56c # Upscaled
+      - 8a9fcdbb445f2add0505926df3bb7b8a # German
+      - c5dd0fd675f85487ad5bdf97159180bd # German DL (undefined)
+      - 133589380b89f8f8394320901529bac1 # Not German or English
+    assign_scores_to:
+      - name: Anime Dub - 720p

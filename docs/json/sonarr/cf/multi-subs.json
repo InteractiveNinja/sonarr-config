@@ -1,0 +1,16 @@
+{
+  "trash_id": "multi-subs",
+  "name": "multi-subs",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "Multi-subs",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "\\[(?i)multi[- ]?subs?\\]"
+      }
+    }
+  ]
+}
