@@ -4,6 +4,11 @@
       "id": "ninja-sonarr-v4-1080p-anime",
       "template": "sonarr/includes/sonarr-v4-1080p-anime.yaml",
       "hidden": false
+    },
+    {
+      "id": "ninja-sonarr-v4-1080p",
+      "template": "sonarr/includes/sonarr-v4-1080p.yaml",
+      "hidden": false
     }
   ]
 }
