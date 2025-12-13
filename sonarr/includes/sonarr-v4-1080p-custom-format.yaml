@@ -57,7 +57,7 @@ custom_formats:
 
   - trash_ids:
       - b766c84c-2742-465f-97ec-2d94745fc35a # Not German
-      - assign_scores_to:
+    assign_scores_to:
           - name: Dub - 1080p
           - name: Anime Dub - 1080p
 
