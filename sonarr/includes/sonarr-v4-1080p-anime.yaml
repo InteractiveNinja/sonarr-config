@@ -105,7 +105,7 @@ custom_formats:
         score: 1100
 
   - trash_ids:
-      - multi-subs # Multi-subs
+      - 34474166-8a47-4de5-ae02-a264d9bd1f9a # Multi-subs
     assign_scores_to:
       - name: Anime Sub - 1080p
         score: 1000
@@ -130,6 +130,6 @@ custom_formats:
       - 23297a736ca77c0fc8e70f8edd7ee56c # Upscaled
       - 8a9fcdbb445f2add0505926df3bb7b8a # German
       - c5dd0fd675f85487ad5bdf97159180bd # German DL (undefined)
-      - 133589380b89f8f8394320901529bac1 # Not German or English
+      - b766c84c-2742-465f-97ec-2d94745fc35a # Not German
     assign_scores_to:
       - name: Anime Dub - 1080p
