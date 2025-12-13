@@ -89,10 +89,21 @@ custom_formats:
       - name: Anime Dub - 1080p
 
   - trash_ids:
-      - 68be37323132b35cf333c81a2ac8fc16 # German Web Tier 01
-      - f51b96a50b0e6196cb69724b7833d837 # German Web Tier 02
-      - bda67c2c0aae257308a4723d92475b86 # German Web Tier 03
-      - c2eec878fa1989599c226ce4c287d6a7 # German Scene
+      - 7940b2fb0278f27cf4f70187f2be95d6 #German Bluray Tier 01
+      - 83b336a90d90d6b35ca673b007f80661 #German Bluray Tier 02
+      - d8f8e1539827967e0e564833e6c08d33 #German Bluray Tier 03
+      - 68be37323132b35cf333c81a2ac8fc16 #German Web Tier 01
+      - f51b96a50b0e6196cb69724b7833d837 #German Web Tier 02
+      - bda67c2c0aae257308a4723d92475b86 #German Web Tier 03
+      - c2eec878fa1989599c226ce4c287d6a7 #German Scene	⚠
+      - d6819cba26b1a6508138d25fb5e32293 #HD Bluray Tier 01
+      - c2216b7b8aa545dc1ce8388c618f8d57 #HD Bluray Tier 02
+      - e6258996055b9fbab7e9cb2f75819294 #WEB Tier 01
+      - 58790d4e2fdcd9733aa7ae68ba2bb503 #WEB Tier 02
+      - d84935abd3f8556dcd51d4f27e22d0a6 #WEB Tier 03
+      - 9aa0ca0d2d66b6f6ee51fc630f46cf6f #German 1080p Booster
+      - c99279ee27a154c2f20d1d505cc99e25 #720p
+      - 290078c8b266272a5cc8e251b5e2eb0b #1080p
     assign_scores_to:
       - name: Anime Sub - 1080p
       - name: Anime Dub - 1080p
