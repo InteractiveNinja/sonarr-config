@@ -4,6 +4,21 @@
       "id": "ninja-sonarr-v4-1080p-anime",
       "template": "sonarr/includes/sonarr-v4-1080p-anime.yaml",
       "hidden": false
+    },
+    {
+      "id": "ninja-sonarr-v4-1080p-cf",
+      "template": "sonarr/includes/sonarr-v4-1080p-custom-format.yaml",
+      "hidden": false
+    },
+    {
+      "id": "ninja-sonarr-v4-1080p-cp",
+      "template": "sonarr/includes/sonarr-v4-1080p-quality-profile.yaml",
+      "hidden": false
+    },
+    {
+      "id": "ninja-sonarr-v4-1080p-cp-anime",
+      "template": "sonarr/includes/sonarr-v4-1080p-quality-profile-anime.yaml",
+      "hidden": false
     }
   ]
 }

@@ -1,0 +1,97 @@
+# =====================
+# SHARED / GLOBAL CFs
+# =====================
+custom_formats:
+  # ---------- WEB / HQ TIERS ----------
+  - trash_ids:
+      - e6258996055b9fbab7e9cb2f75819294 # WEB Tier 01
+      - 58790d4e2fdcd9733aa7ae68ba2bb503 # WEB Tier 02
+      - d84935abd3f8556dcd51d4f27e22d0a6 # WEB Tier 03
+    assign_scores_to:
+      - name: Dub - 1080p
+      - name: Anime Sub - 1080p
+      - name: Anime Dub - 1080p
+
+  # ---------- REMUX TIERS ----------
+  - trash_ids:
+      - 9965a052eb87b0d10313b1cea89eb451 # Remux Tier 01
+      - 8a1d0c3d7497e741736761a1da866a2e # Remux Tier 02
+    assign_scores_to:
+      - name: Dub - 1080p
+      - name: Anime Sub - 1080p
+      - name: Anime Dub - 1080p
+
+  # ---------- RESOLUTION ----------
+  - trash_ids:
+      - 9aa0ca0d2d66b6f6ee51fc630f46cf6f # 1080p Booster
+      - 290078c8b266272a5cc8e251b5e2eb0b # 1080p
+      - c99279ee27a154c2f20d1d505cc99e25 # 720p
+    assign_scores_to:
+      - name: Dub - 1080p
+      - name: Anime Sub - 1080p
+      - name: Anime Dub - 1080p
+
+  # ---------- UNWANTED / PENALTIES ----------
+  - trash_ids:
+      - 85c61753df5da1fb2aab6f2a47426b09 # BR-DISK
+      - 9c11cd3f07101cdba90a2d81cf0e56b4 # LQ
+      - e2315f990da2e2cbfc9fa5b7a6fcfe48 # LQ (Release Title)
+      - fbcb31d8dabd2a319072b84fc0b7249c # Extras
+      - 23297a736ca77c0fc8e70f8edd7ee56c # Upscaled
+      - 15a05bc7c1a36e2b57fd628f8977e2fc # AV1
+    assign_scores_to:
+      - name: Dub - 1080p
+      - name: Anime Sub - 1080p
+      - name: Anime Dub - 1080p
+
+  # ---------- LANGUAGE (GERMAN) ----------
+  - trash_ids:
+      - 8a9fcdbb445f2add0505926df3bb7b8a # German
+      - ed51973a811f51985f14e2f6f290e47a # German DL
+      - c5dd0fd675f85487ad5bdf97159180bd # German DL (undefined)
+    assign_scores_to:
+      - name: Dub - 1080p
+      - name: Anime Sub - 1080p
+      - name: Anime Dub - 1080p
+        score: 1100
+
+  - trash_ids:
+      - b766c84c-2742-465f-97ec-2d94745fc35a # Not German
+      - assign_scores_to:
+          - name: Dub - 1080p
+          - name: Anime Dub - 1080p
+
+      # ---------- GERMAN HQ GROUPS ----------
+  - trash_ids:
+      - da0f005f9c3edf34fc26e18dce8c6573 # German Remux Tier 01
+      - 6bc5ccd80a03e7abb8f556eecd174b73 # German Remux Tier 02
+      - 68be37323132b35cf333c81a2ac8fc16 # German Web Tier 01
+      - f51b96a50b0e6196cb69724b7833d837 # German Web Tier 02
+      - bda67c2c0aae257308a4723d92475b86 # German Web Tier 03
+      - c2eec878fa1989599c226ce4c287d6a7 # German Scene
+    assign_scores_to:
+      - name: Dub - 1080p
+      - name: Anime Sub - 1080p
+      - name: Anime Dub - 1080p
+
+  # =====================
+  # ANIME-ONLY CFs (SAFE)
+  # =====================
+  - trash_ids:
+      - 949c16fe0a8147f50ba82cc2df9411c9 # Anime BD Tier 01
+      - ed7f1e315e000aef424a58517fa48727 # Anime BD Tier 02
+      - 096e406c92baa713da4a72d88030b815 # Anime BD Tier 03
+      - 30feba9da3030c5ed1e0f7d610bcadc4 # Anime BD Tier 04
+      - 545a76b14ddc349b8b185a6344e28b04 # Anime BD Tier 05
+      - 25d2afecab632b1582eaf03b63055f72 # Anime BD Tier 06
+      - 0329044e3d9137b08502a9f84a7e58db # Anime BD Tier 07
+      - c81bbfb47fed3d5a3ad027d077f889de # Anime BD Tier 08
+      - d2d7b8a9d39413da5f44054080e028a3 # v0
+      - 273bd326df95955e1b6c26527d1df89b # v1
+      - 228b8ee9aa0a609463efca874524a6b8 # v2
+      - 0e5833d3af2cc5fa96a0c29cd4477feb # v3
+      - 4fc15eeb8f2f9a749f918217d4234ad8 # v4
+      - 34474166-8a47-4de5-ae02-a264d9bd1f9a # multi-subs
+    assign_scores_to:
+      - name: Anime Sub - 1080p
+      - name: Anime Dub - 1080p
